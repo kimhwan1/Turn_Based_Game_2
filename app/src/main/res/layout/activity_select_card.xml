@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/ATTACK_BUTTON"
+                android:src="@drawable/attack"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="attack"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"/>
+
+            <ImageButton
+                android:id="@+id/ATTACK_COUNTER_BUTTON"
+                android:src="@drawable/attack_counter"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="ATTACK_COUNTER"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"/>
+
+            <ImageButton
+                android:id="@+id/DEFEND_BUTTON"
+                android:src="@drawable/armor"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="DEFEND"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/DEFEND_COUNTER_BUTTON"
+                android:src="@drawable/armor_counter"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="DEFEND_COUNTER"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageButton
+                android:id="@+id/DAMAGE_BUFF_BUTTON"
+                android:src="@drawable/buff"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="DAMAGE_BUFF"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"/>
+
+            <ImageButton
+                android:id="@+id/BUFF_COUNTER_BUTTON"
+                android:src="@drawable/buff_counter"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="BUFF_COUNTER"
+                android:textSize="30dp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/FINISH_BUTTON"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="FINISH"
+        android:textSize="30dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
